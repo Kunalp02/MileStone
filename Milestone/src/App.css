@@ -1,0 +1,12 @@
+input{
+    min-width: 250px;
+    width: 400px;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+select{
+    width: 100%;
+}

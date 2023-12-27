@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+input, textarea, select{
+  background-color: #110034;
+}
+
+.active-link {
+  color: red; 
+  font-weight: bold;
+}
+
+body {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+
+h3 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#b57cff, #611eff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@layer utilities {
+  .shadow-glow {
+    box-shadow: 0 0 10px 5px rgba(39, 75, 255, 0.422);
+  }
+}
+
+
+/* galexy scene */
+.close-button{
+  display: none;
+}
